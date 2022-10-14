@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Contact Us</title>
+  <link rel="icon" type="image/x-icon" href="/images/fav ico website.ico">
+  
+ </head>
+ <style>
+ 
+ body{
+  background-color: palegoldenrod;
+ }
+  .content{
+   margin: 0px auto;
+   width: 400px;
+   padding: 10px;
+   background: bisque;
+  
+  } 
+  
+  .submit{
+   background-color: darkgray;
+  }
+
+  .submit:hover{
+   background-color: grey;
+  }
+.more{
+float: right;
+  line-height: 1;
+  margin-left: 100px;
+  padding-left: 40px;
+}
+.logo{
+  padding-left: 0px;
+  margin-left: 50px;
+}
+
+.uber{
+  padding: 30px 0px 150px 0px;
+  margin-left: 50px;
+}
+
+.btn{
+ border: solid 0px;
+ border-radius: 20px;
+ width: 80px;
+ padding: 10px;
+ color: black;
+ float: right;
+ font-size: 18px;
+ background-color: white;
+ text-decoration: none;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ cursor: pointer;
+ text-align: center;
+}
+.btn2 {
+ border: solid 0px;
+ border-radius: 20px;
+ width: 80px;
+ padding: 10px;
+ color: white;
+ float: right;
+ font-size: 18px;
+ background-color: black;
+ text-decoration: none;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ cursor: pointer;
+ text-align: center;
+}
+
+.btn:hover {
+  background-color: #f2f3f4;
+}
+
+.btn2:hover {
+  background-color: #303030;
+}
+.nav-bar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  background-color: white; 
+  position: fixed;
+}
+
+.nav-bar .nav {
+  float: right;
+  margin-top: -50px;
+  margin-bottom: 5px;
+}
+
+
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 40px;
+  padding-bottom: 300px;
+}
+
+.uber-logo {
+  margin-top: 25px;
+  margin-left: 130px;
+}
+
+.nav-bar img {
+  margin-left: 120px;
+  margin-top: -200px;
+  margin-bottom: 20px;
+}
+
+.hamburger {
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+  margin-left: -50px;
+  
+}
+.ending{
+  height: 40px;
+}
+  table{
+ margin-right: 50px;
+ margin-top: 10px;
+
+}
+td{
+ line-height: 1cm;
+}
+ </style>
+ <body>
+   <div class="nav-bar">
+      <div class="uber-logo">
+         <div class="hamburger"></div>
+         <div class="hamburger"></div>
+         <div class="hamburger"></div>
+      </div>
+   
+      <img src="./images/ubereatslogos.png" alt="logo uber eats">
+      <div class="nav">
+         <ul>
+            <li><a href="https://unai.edu" class="btn">Log in</a></li>
+            <li><a href="https://fti.unai.edu" class="btn2">Sign Up</a></li>
+         </ul>
+      </div>
+   </div>
+  <div class="content">
+  <form>
+  <h1>Contact Us</h1>
+  <form action="/action_page.php">
+   <label for="fname"><b>Full Name :</b></label>
+   <input type="text" name="fname" id="fname" placeholder="Type your Full name" size="50">
+   <br><br>
+
+   <label for="email"><b>Email : </b></label>
+   <input type="email" name="email" id="email" placeholder="Input your email" size="50">
+   <br><br>
+   <label for="username"><b>User Name : </b></label>
+   <input type="text" name="username" id="username" placeholder="Type your user name" size="50">
+   <br><br>
+<div class="tengah">
+   <label for="password"><b>Password: </b></label><br>
+   <input type="password" name="password" id="password" placeholder="Password">
+   <br><br>
+
+   <label for="gender"><b>Gender : </b></label><br>
+   <input type="radio" name="gender" id="pria" value="pria" checked>
+   <label for="pria">Pria</label>
+   <input type="radio" name="gender" id="wanita" value="wanita">
+   <label for="wanita">Wanita</label>
+   <br><br>
+   <label for="birthday"><b>Birthday: </b></label><br>
+   <input type="date" name="birthday" id="birthday">
+  <br><br>
+   <label for="religion"><b>Choose your Religion : </b></label><br>
+   <select name="religion">
+    <option value="Protestan" selected>Protestant</option>
+    <option value="Katolik">Catholic</option>
+    <option value="Islam">Islam</option>
+    <option value="Hindu">Hindu</option>
+    <option value="Buddha">Buddha</option>
+    <option value="Konghucu">Confucius</option>
+   </select>
+<br><br>
+   <p><b>Please write your address below:</b></p>
+   <textarea name="comment" cols="30" rows="5"></textarea>
+  
+   <p><b>Hobbies:</b></p>
+   <input type="checkbox" id="basketball" name="hobbies" value="basketball">
+   <label for="basketball">Basketball</label><br>
+   <input type="checkbox" name="hobbies" id="swimming" value="swimming">
+   <label for="swimming">Swimming</label><br>
+   <input type="checkbox" name="hobbies" id="watching" value="watching">
+   <label for="watching">Watching</label><br>
+   <input type="checkbox" name="hobbies" id="reading">
+   <label for="reading">Reading</label><br>
+   <label for="lainnya"></label>
+   <input type="text" name="hobbies" id="lainnya" placeholder="others" size="20">
+   <br><br>
+   <input class="submit" type="submit" value="Save">
+</div></div>
+  </form>
+  </form><hr>
+
+<table class="more">
+   <tr>
+      <td>Get Help</td>
+      <td>Restaurants near me</td>
+   </tr>
+
+   <tr>
+      <td>Buy gift cards</td>
+      <td>View all cities</td>
+   </tr>
+
+   <tr>
+      <td>Add your restaurants</td>
+      <td>View all countries</td>
+   </tr>
+
+   <tr>
+      <td>Sign up to deliver</td>
+      <td>Pick up near me</td>
+   </tr>
+
+   <tr>
+      <td>Create a business account</td>
+      <td>About Uber Eats</td>
+   </tr>
+
+   <tr>
+      <td>Promotions</td>
+      <td>English</td>
+   </tr>
+</table>
+<img class="uber" src="./images/ubereatslogos.png" alt="logo uber eats">
+<div class="logo"> <a href="contact_us.html"><img src="./images/apple app store.jpg" alt="app store"></a>
+   <a href="arti_dan_sejarah.html"><img class="ending" src="./images/google play.png" alt="gplay"></a>
+</div><br>
+<hr class="garis">
+ </body>
+</html>
