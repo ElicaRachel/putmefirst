@@ -1,0 +1,312 @@
+body{
+ margin: 0;
+ width: 100%;
+}
+html {
+ font-family: sans-serif;
+ text-size-adjust: 100%;
+ height: 100%;
+  width: fit-content;
+}
+
+.nav-bar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  background-color: white; 
+  position: fixed;
+}
+
+.nav-bar .nav {
+  float: right;
+  margin-top: -50px;
+  margin-bottom: 5px;
+}
+
+
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 40px;
+  padding-bottom: 300px;
+}
+
+.uber-logo {
+  margin-top: 25px;
+  margin-left: 130px;
+}
+
+.nav-bar img {
+  margin-left: 120px;
+  margin-top: -200px;
+  margin-bottom: 20px;
+}
+
+.hamburger {
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+  margin-left: -50px;
+  
+}
+
+
+
+
+/* .nav-bar a h1 {
+  float: left;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  padding: 20px 40px;
+  font-size: 16px;
+  display: block;
+}
+
+.nav-bar a {
+ float: right;
+} */
+
+/*ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+background-color: yellow;
+ overflow: hidden;
+}
+
+ul li {
+ float: left;
+ padding-top: 15 px;
+ padding-bottom: 2px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: black;
+ padding: 16px 20px;
+ font-size: 20px;
+ display: block;
+}*/
+
+.judul{
+  padding-top:200px;
+  font-size: 52px;
+  
+}
+
+.enter{
+  padding: 17px 350px 17px 15px;
+  font-size: 15px;
+}
+
+.time{
+  padding:17px;
+font-size: 15px;
+}
+
+.tombol{
+  padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn{
+ border: solid 0px;
+ border-radius: 20px;
+ width: 80px;
+ padding: 10px;
+ color: black;
+ float: right;
+ font-size: 18px;
+ background-color: white;
+ text-decoration: none;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ cursor: pointer;
+ text-align: center;
+}
+.btn2 {
+ border: solid 0px;
+ border-radius: 20px;
+ width: 80px;
+ padding: 10px;
+ color: white;
+ float: right;
+ font-size: 18px;
+ background-color: black;
+ text-decoration: none;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ cursor: pointer;
+ text-align: center;
+}
+
+.btn:hover {
+  background-color: #f2f3f4;
+}
+
+.btn2:hover {
+  background-color: #303030;
+}
+
+
+
+.one{
+  width: 100%;
+ /* width: 1308px; */
+ height: 101vh;
+ background-image: url(./images/bg-ubereats.png);
+ background-position: center;
+ background-size: cover;
+ padding-left: 40px;
+ margin-bottom: 30px;
+
+ }
+.awal{
+  position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: -1;
+  }
+
+a{
+ color: black;
+}
+
+.gallery-wrapper {
+  margin-right: -100px;
+}
+
+div.gallery {
+ margin: 30px 15px 15px 10px ;
+ float: left;
+ width: 400px;
+ 
+}
+
+div.gallery img {
+ width: 100%;
+ height: auto;
+ justify-content: space-around;
+ margin-left: 120px;
+ 
+}
+
+.desc {
+ margin-left: 120px;
+ padding-bottom: 0%;
+ font-size: 22px;
+ /* font-weight: 700; */
+ text-decoration: none;
+ text-align: left;
+}
+
+
+.link{
+  padding-left: 120px;
+}
+.one .img {
+ background-size: cover;
+}
+
+.lokasi{
+  float: right;
+  padding-right: 65px;
+  padding-bottom: 20px;
+
+}
+
+.a{
+ word-spacing: 1cm;
+}
+
+td{
+  padding: 15px 140px 10px 40px;
+  
+}
+
+.negara{
+  padding-left: 80px;
+  padding-top: 30px;
+  font-size: 35px;
+
+  
+}
+
+.cities{
+ margin-left: 40px;
+ margin-bottom: 0px;
+ padding-left: 30px;
+ }
+
+ .map-wrapper {
+  margin-top: 400px;
+  margin-left: 20px;
+ }
+
+.pilihan{
+   border-style: none;
+}
+
+.country{
+  padding-right: 100px;
+  padding-left: 80px;
+}
+
+.kota{
+  padding-right: 148px;
+  padding-left: 80px;
+}
+
+.footer{
+  padding-left: 40px;
+}
+.uber{
+  padding: 30px 0px 150px 0px;
+  margin-left: 50px;
+}
+
+.ending{
+  height: 40px;
+}
+
+.fa-facebook{
+  background-color: black;
+  color: white;
+  width: 20px;
+  font-size: 10px;
+  text-align: right;
+  
+}
+
+.logo{
+  padding-left: 0px;
+  margin-left: 50px;
+}
+.more{
+  float: right;
+  line-height: 1;
+  margin-left: 100px;
+  
+}
+
+.garis{
+  margin-right: 50px;
+}
+
+.map{
+  height: 400px;
+  width: 1380px;
+  margin-left: 40px;
+  margin-right: 30px;
+  /* margin-top: 30px; */
+}
+
+.test{
+  line-height: 0.5cm;
+}
+
